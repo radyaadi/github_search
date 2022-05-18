@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
                     SizedBox(height: 20),
                     ElevatedButton(
                       onPressed: () {
-                        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) {
+                        Navigator.push(context, MaterialPageRoute(builder: (context) {
                           return UserPage(username: username);
                         }));
                       },
